@@ -14,7 +14,7 @@ int main()
     if(x[i]<48 || x[i]>57)//checking if the character at position 'i' is a number or not
     {
       is_number=false;//if it's not a number we set that variable to false
-      break; //and we end the loop because if there's even one non numerical character in that string that's means we can't count it as a number
+      break; //and we end the loop because if there's even one non numerical character in that string that's means we can't count it as a number so there is no need to check the rest of them
     }
   }
     if(is_number==true)//if the input is number
