@@ -9,7 +9,7 @@ int main()
   bool is_number=true;//this is variable that will tell the program if input is a number or not
   cin>>x; //putting input into x
   //loop that checks every character in the string
-  for(int i=0;i<x.size();i++)//it will do the code inside {} until the value of 'i' is smaller than length of an input string so it  will run through every character
+  for(int i=0;i<x.size();i++)//it will do the code inside {} as long as the value of 'i' is smaller than length of an input string so it  will run through every character
   {
     if(x[i]<48 || x[i]>57)//checking if the character at position 'i' is a number or not
     {
