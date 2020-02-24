@@ -11,7 +11,7 @@ int main()
   //loop that checks every character in the string
   for(int i=0;i<x.size();i++)//it will do the code inside {} as long as the value of 'i' is smaller than length of an input string so it  will run through every character
   {
-    if((x[i]<48 || x[i]>57) && x[i]!=41)//checking if the character at position 'i' is a number or not
+    if((x[i]<48 || x[i]>57) && x[i]!=45)//checking if the character at position 'i' is a number or not
     {
       is_number=false;//if it's not a number we set that variable to false
       break; //and we end the loop because if there's even one non numerical character in that string that's means we can't count it as a number so there is no need to check the rest of them
